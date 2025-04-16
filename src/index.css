@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f5f5dc;
+}
+
+
+a{
+  all: unset;
+}
+
+ul{
+  list-style: none;
+}
+/* container */
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* header */
+header{
+  padding: 20px;
+  background-color: #008f39;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.menu{
+  display: flex;
+  gap: 50px;
+}
+.menu li{
+  font-size: 23px;
+  text-transform: uppercase;
+}
+.menu li:hover{
+  cursor: pointer;
+  color: #ffffff;
+}
+
+/* main */
+main{
+  text-align: center;
+}
+
