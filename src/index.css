@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: #f5f5dc;
+  background-color: #F9F9F9;
 }
 
 
@@ -20,12 +20,20 @@ ul{
   max-width: 1200px;
   margin: 0 auto;
 }
+.post-container{
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
+  border:2px solid #DDDDDD;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
 
 
 /* header */
 header{
   padding: 20px;
-  background-color: #008f39;
+  background-color: #E2E8F0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,14 +46,30 @@ header{
 .menu li{
   font-size: 23px;
   text-transform: uppercase;
+  color: #1E1E1E;
 }
 .menu li:hover{
   cursor: pointer;
-  color: #ffffff;
+  color: #3A76F0;
 }
 
 /* main */
-main{
+main h1{
   text-align: center;
 }
+.post-title{
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #1E1E1E;
+}
+.link{
+  font-size: 20px;
+  color: #3A76F0;
+}
+.link:hover{
+  cursor: pointer;
+  color: 	#1F4FCC;
+}
+
+
 
