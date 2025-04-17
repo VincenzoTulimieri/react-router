@@ -6,7 +6,7 @@ export default function CardPost({posts}){
         posts.map(post=>(
             <div className="post-container" key={post.id}>
                 <h2 className="post-title">{post.title}</h2>
-                <span className="link"><Link to={`/posts/:${post.id}`}>Dettagli post</Link></span>
+                <span className="link"><Link to={`/posts/${post.id}`}>Dettagli post</Link></span>
             </div>
         ))  
     )
